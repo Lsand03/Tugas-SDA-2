@@ -3,65 +3,65 @@ import java.util.LinkedList;
 
 public class soal1 {
     public static void main(String[] args) {
-        LinkedList<String> nama = new LinkedList<String>(); 
-        nama.add("M."); 
-        nama.add("");
-        nama.add("A");
-        nama.add("F");
-        nama.add("I");
-        nama.add("F");
-        nama.add("");
-        nama.add("E");
-        nama.add("L");
-        nama.add("S");
-        nama.add("A");
-        nama.add("N");
-        nama.add("D");
-        nama.add("A");
+        LinkedList<String> saya = new LinkedList<String>(); 
+        saya.add("M."); 
+        saya.add("");
+        saya.add("A");
+        saya.add("F");
+        saya.add("I");
+        saya.add("F");
+        saya.add("");
+        saya.add("E");
+        saya.add("L");
+        saya.add("S");
+        saya.add("A");
+        saya.add("N");
+        saya.add("D");
+        saya.add("A");
         
-        System.out.println("Nama =" +nama);
-        System.out.println("Size = "+nama.size());
+        System.out.println("saya =" +saya);
+        System.out.println("Size = "+saya.size());
       
         //Add LinkedList
-        nama.addFirst("Prof.");
-        nama.addFirst("H.");
-        nama.addLast("S.");
-        nama.add("Kom");
-        nama.add("MT");
+        saya.addFirst("Prof.");
+        saya.addFirst("H.");
+        saya.addLast("S.");
+        saya.add("Kom");
+        saya.add("MT");
         
-        System.out.println("\nFungsi Add = "+nama);
-        System.out.println("Size = "+nama.size());
+        System.out.println("\nFungsi Add = "+saya);
+        System.out.println("Size = "+saya.size());
       
         //set linkedlist 
-        nama.set(1,"S" );
-        nama.set(5,"T" );
-        nama.set(6,"A" );
-        nama.set(11,"R" );
-        nama.set(13,"Z" );
-        System.out.println("Fungsi Set = "+nama);
-        System.out.println("Size = "+nama.size());
+        saya.set(1,"S" );
+        saya.set(5,"T" );
+        saya.set(6,"A" );
+        saya.set(11,"R" );
+        saya.set(13,"Z" );
+        System.out.println("Fungsi Set = "+saya);
+        System.out.println("Size = "+saya.size());
       
         //remove linkedlist
-        nama.removeFirst();
-        nama.removeLast();
-        System.out.println("Fungsi Remove First & Last = "+nama);
-        System.out.println("Size = "+nama.size());
+        saya.removeFirst();
+        saya.removeLast();
+        System.out.println("Fungsi Remove First & Last = "+saya);
+        System.out.println("Size = "+saya.size());
       
-        nama.remove(9);
-        nama.remove(3);
-        nama.remove(0);
+        saya.remove(9);
+        saya.remove(3);
+        saya.remove(0);
     
-        System.out.println("Fungsi Remove = "+nama);
-        System.out.println("Size = "+nama.size());
+        System.out.println("Fungsi Remove = "+saya);
+        System.out.println("Size = "+saya.size());
       
         //pop and push
-        nama.pop();
-        System.out.println("Fungsi POP = "+nama);
-        System.out.println("Size = "+nama.size());
+        saya.pop();
+        System.out.println("Fungsi POP = "+saya);
+        System.out.println("Size = "+saya.size());
       
-        nama.push("E");
-        System.out.println("Fungsi PUSH = "+nama);
-        System.out.println("Size = "+nama.size());
+        saya.push("E");
+        System.out.println("Fungsi PUSH = "+saya);
+        System.out.println("Size = "+saya.size());
         
        
     }
